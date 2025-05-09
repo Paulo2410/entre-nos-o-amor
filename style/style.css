@@ -252,6 +252,16 @@ body {
       padding: 8px 16px;
       margin-top: 2rem;
     }
+    .destaque-coracao {
+      background-color: rgba(255, 255, 255, 0.2);
+      color: #fff;
+      padding: 4px 8px;
+      border-radius: 8px;
+      font-weight: bold;
+      text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+      
+    
+  }
   
     .homenagem {
       font-size: 0.95rem;
