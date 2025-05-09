@@ -233,6 +233,12 @@ body {
       font-weight: bold;
       text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);  
   }
+
+  @keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+  }
   
     .homenagem {
       font-size: 1rem;
@@ -272,6 +278,12 @@ body {
       border-radius: 8px;
       font-weight: bold;
       text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);  
+  }
+
+  @keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
   }
   
     .homenagem {
