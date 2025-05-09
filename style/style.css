@@ -72,6 +72,31 @@ body {
     50% { transform: scale(1.2); }
     100% { transform: scale(1); }
   }
+
+.instrucoes-audio {
+  font-size: 1rem;
+  color: #fff;
+  background: rgba(255, 0, 0, 0.2);
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 20px;
+  display: inline-block;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  animation: pulse 2s infinite;
+  text-align: center;
+}
+
+.destaque-coracao {
+  font-weight: bold;
+  color: #ff0055;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
   
   
   main {
