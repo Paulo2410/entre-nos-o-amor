@@ -235,6 +235,11 @@ body {
     .fotos img {
       width: 100%;
     }
+    /* 📱 Ajuste para telas menores (celulares) */
+    
+    .poema p::before {
+      background-size: contain;     /* Reduz a imagem para caber */
+      background-position: top;     /* Reposiciona se necessário */
   }
   
   
