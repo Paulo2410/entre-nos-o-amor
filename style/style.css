@@ -220,28 +220,14 @@ body {
     h1 {
       font-size: 2rem;
     }
-    .instrucoes-audio {
-      font-size: 0.8rem;
-      padding: 8px 16px;
-      margin-top: 2rem;
-    }
-    .destaque-coracao {
-      background-color: rgba(255, 255, 255, 0.2);
-      color: #fff;
-      padding: 4px 8px;
-      border-radius: 8px;
-      font-weight: bold;
-      text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);  
-  }
-
-  @keyframes pulse {
-    0% { transform: scale(1); }
-    50% { transform: scale(1.05); }
-    100% { transform: scale(1); }
-  }
-  
     .homenagem {
       font-size: 1rem;
+    }
+
+    .instrucoes-audio {
+      font-size: 0.5rem;
+      padding: 8px 16px;
+      margin-top: 2rem;
     }
   
     #btnAudio {
@@ -266,28 +252,14 @@ body {
     h1 {
       font-size: 1.6rem;
     }
+    .homenagem {
+      font-size: 0.95rem;
+    }
+
     .instrucoes-audio {
       font-size: 0.5rem;
       padding: 8px 16px;
       margin-top: 2rem;
-    }
-    .destaque-coracao {
-      background-color: rgba(255, 255, 255, 0.2);
-      color: #fff;
-      padding: 4px 8px;
-      border-radius: 8px;
-      font-weight: bold;
-      text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);  
-  }
-
-  @keyframes pulse {
-    0% { transform: scale(1); }
-    50% { transform: scale(1.05); }
-    100% { transform: scale(1); }
-  }
-  
-    .homenagem {
-      font-size: 0.95rem;
     }
   
     .poema {
