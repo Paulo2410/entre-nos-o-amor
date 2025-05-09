@@ -243,6 +243,11 @@ body {
     h1 {
       font-size: 1.6rem;
     }
+    .instrucoes-audio {
+      font-size: 0.5rem;
+      padding: 8px 16px;
+      margin-top: 2rem;
+    }
   
     .homenagem {
       font-size: 0.95rem;
